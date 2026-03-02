@@ -3,6 +3,7 @@
 .env.local
 .env.*.local
 *.env
+geminikey.txt
 
 # Python
 __pycache__/
@@ -29,3 +30,6 @@ build/
 outputs/
 temp_video.mp4
 *.concat.txt
+
+# Large binary assets (optional: remove to track)
+lingzhou.mp3
