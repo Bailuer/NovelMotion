@@ -1,0 +1,15 @@
+# NovelMotion — dependencies
+# Python 3.8+
+
+# Required: placeholder frame export
+Pillow>=9.0.0
+
+# Optional: load .env for HF_TOKEN etc.
+python-dotenv>=0.19.0
+
+# Optional: Stable Diffusion rendering (--renderer sd)
+# Uncomment and install if you use GPU/MPS; requires significant disk and VRAM.
+# torch>=2.0.0
+# diffusers>=0.25.0
+# transformers>=4.35.0
+# accelerate>=0.24.0
